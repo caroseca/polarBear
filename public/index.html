@@ -14,7 +14,10 @@
          placeholder="Enter topic to search" />
     <button ng-click="execute()" type="button">Break the ice!</button>
     <!-- <p ng-repeat = "x in response">{{x.response.results[3]}}</p> -->
-    <p ng-repeat = "array in arrays">{{array.webTitle}}</p>
+    <p ng-repeat = "array in arrays | limitTo: 3">
+    	<!-- {{array.webTitle}} -->
+    	{{array}}
+    </p>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 	<script src="script.js"></script>
 </body>

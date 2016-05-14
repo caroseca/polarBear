@@ -1,0 +1,40 @@
+     {
+        "jokes": [
+            {
+                "jokeID": "1",
+                "joke": "What does a 300 pound canary say while walking down a dark alley? Here kitty, kitty",
+                "jokeAuthor": "Leah Rapp",
+                "tag": "[bird, cat]"
+            },
+            {
+                "jokeID": "2",
+                "joke": "What's a frog's favorite sport? Croak-et (pronounced 'croak-day')",
+                "jokeAuthor": "Adam Hire",
+                "tag": "[nerd, frog, sports, adam]"
+            },
+            {
+                "jokeID": "3",
+                "joke": "Why did the programmer quit their job? Because they didn't get arrays.",
+                "jokeAuthor": "Katie Corcoran",
+                "tag": "[nerd, coding, interview]"
+            },
+            {
+                "jokeID": "4",
+                "joke": "What did the bluberry say to the other blueberry? Hey, you kinda look like a blueberry.",
+                "jokeAuthor": "Cara Canady",
+                "tag": "[nerd, food, corny]"   
+            },
+            {
+                "jokeID": "5",
+                "joke": "A grasshopper walks into a bar, and the bartender says: 'hey buddy, we have a drink named after you!' The grasshopper says, 'what? you have a drink named Steve?!",
+                "jokeAuthor": "Jessica Lane",
+                "tag": "[nerd, drink, bugs]"   
+            },
+            {
+                "jokeID": "6",
+                "joke": "Why did the coffee file a police report? It got mugged.",
+                "jokeAuthor": "Kim Driscoll",
+                "tag": "[nerd, drink, bugs]"   
+            }
+        ]
+   }
