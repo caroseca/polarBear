@@ -3,6 +3,7 @@ h1 {
   font: Arial;
   font-family: sans-serif;
   text-align: center;
+  color: #00f;
 }
 body {
   background-color: #87ceeb;
@@ -12,5 +13,4 @@ body {
   max-height: 300px;
   max-width: 100px;
   align-items: center;
-
 }

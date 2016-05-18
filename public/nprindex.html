@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Polar Bear: Break the Ice!</title>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	</head>
+
+<body ng-app="myModule" ng-controller="nprcontroller">
+	<h1>Polar Bear!</h1>
+	<input type="text" 
+         ng-model="search" 
+         placeholder="Enter topic to search" />
+    <button ng-click="nprexecute()" type="button">Break the ice!</button>
+        <!-- <p ng-repeat = "array in arrays">{{array.webTitle}}</p> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="nprcontroller.js"></script>
+</body>
+</html>	
