@@ -2,7 +2,7 @@
         "jokes": [
             {
                 "jokeID": "1",
-                "joke": "What does a 300 pound canary say while walking down a dark alley? Here kitty, kitty",
+                "joke": "What does a 300 pound canary say while walking down a dark alley? 'Here kitty, kitty.'",
                 "jokeAuthor": "Leah Rapp",
                 "tag": "[bird, cat]"
             },
@@ -20,7 +20,7 @@
             },
             {
                 "jokeID": "4",
-                "joke": "What did the bluberry say to the other blueberry? Hey, you kinda look like a blueberry.",
+                "joke": "What did the blueberry say to the other blueberry? Hey, you kinda look like a blueberry.",
                 "jokeAuthor": "Cara Canady",
                 "tag": "[nerd, food, corny]"   
             },
@@ -35,6 +35,42 @@
                 "joke": "Why did the coffee file a police report? It got mugged.",
                 "jokeAuthor": "Kim Driscoll",
                 "tag": "[nerd, drink, bugs]"   
+            },
+            {
+                "jokeID": "7",
+                "joke": "Why did the coffee file a police report? It got mugged.",
+                "jokeAuthor": "Kim Driscoll",
+                "tag": "[nerd, drink, bugs]"   
+            },
+            {
+                "jokeID": "8",
+                "joke": "What kind of music do frogs listen to? Hip hop!",
+                "jokeAuthor": "Adam Hire",
+                "tag": "[nerd, frogs]"   
+            },
+            {
+                "jokeID": "9",
+                "joke": "What did the bus driver say to the frog? Hope on!",
+                "jokeAuthor": "Adam Hire",
+                "tag": "[nerd, frogs]"   
+            },
+            {
+                "jokeID": "10",
+                "joke": "Why are pirates pirates? Because they arrrrrrgh.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[pirates, cornybeyondrecognition]"   
+            },
+            {
+                "jokeID": "11",
+                "joke": "What did the buffalo to his son when he went out of town? Bison.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[animals, cornybeyondrecognition]"   
+            },
+            {
+                "jokeID": "12",
+                "joke": "How do you find Will Smith in the snow? Look for the Fresh Prince.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[bellaire, cornybeyondrecognition]"   
             }
         ]
    }

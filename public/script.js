@@ -8,8 +8,9 @@ $scope.execute = function (){
       method: 'GET',
       url: '/json/jokes.json'
     }).then(function (response) {
-      console.log(response);
-      
+      console.log(response.data.jokes);
+      // arrays[Math.floor(Math.random()*arrays.length)];
+      // $scope.arrays = response.data.jokes;
     }, function () {
     // called asynchronously if an error occurs
     // or server returns response with an error status.
