@@ -1,6 +1,20 @@
 h1 {
-  color: #00f;
+  color: #4169e1;
+  font: Arial;
+  font-family: sans-serif;
+  text-align: center;
 }
 body {
+<<<<<<< HEAD
   background-color: #ffebcd;
+=======
+  background-color: #87ceeb;
+  align-items: center;
+}
+#logo {
+  max-height: 300px;
+  max-width: 100px;
+  align-items: center;
+
+>>>>>>> 0722e4d6243f72513461a191d49171650348829b
 }
