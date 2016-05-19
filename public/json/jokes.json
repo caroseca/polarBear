@@ -8,7 +8,7 @@
             },
             {
                 "jokeID": "2",
-                "joke": "What's a frog's favorite sport? Croak-et (pronounced 'croak-day')",
+                "joke": "What's a frog's favorite sport? Croak-et (pronounced 'croak-ay')",
                 "jokeAuthor": "Adam Hire",
                 "tag": "[nerd, frog, sports, adam]"
             },
@@ -22,55 +22,223 @@
                 "jokeID": "4",
                 "joke": "What did the blueberry say to the other blueberry? Hey, you kinda look like a blueberry.",
                 "jokeAuthor": "Cara Canady",
-                "tag": "[nerd, food, corny]"   
+                "tag": "[nerd, food, cornybeyondrecognition]"
             },
             {
                 "jokeID": "5",
                 "joke": "A grasshopper walks into a bar, and the bartender says: 'hey buddy, we have a drink named after you!' The grasshopper says, 'what? you have a drink named Steve?!",
                 "jokeAuthor": "Jessica Lane",
-                "tag": "[nerd, drink, bugs]"   
+                "tag": "[nerd, drink, bugs]"
             },
             {
                 "jokeID": "6",
                 "joke": "Why did the coffee file a police report? It got mugged.",
                 "jokeAuthor": "Kim Driscoll",
-                "tag": "[nerd, drink, bugs]"   
+                "tag": "[nerd, drink, bugs]"
             },
             {
                 "jokeID": "7",
                 "joke": "Why did the coffee file a police report? It got mugged.",
                 "jokeAuthor": "Kim Driscoll",
-                "tag": "[nerd, drink, bugs]"   
+                "tag": "[nerd, drink, bugs]"
             },
             {
                 "jokeID": "8",
                 "joke": "What kind of music do frogs listen to? Hip hop!",
                 "jokeAuthor": "Adam Hire",
-                "tag": "[nerd, frogs]"   
+                "tag": "[nerd, frogs]"
             },
             {
                 "jokeID": "9",
                 "joke": "What did the bus driver say to the frog? Hope on!",
                 "jokeAuthor": "Adam Hire",
-                "tag": "[nerd, frogs]"   
+                "tag": "[nerd, frogs]"
             },
             {
                 "jokeID": "10",
-                "joke": "Why are pirates pirates? Because they arrrrrrgh.",
+                "joke": "Why are pirates pirates? Because they arrrrrr.",
                 "jokeAuthor": "Shelby Hebel",
-                "tag": "[pirates, cornybeyondrecognition]"   
+                "tag": "[pirates, cornybeyondrecognition]"
             },
             {
                 "jokeID": "11",
                 "joke": "What did the buffalo to his son when he went out of town? Bison.",
                 "jokeAuthor": "Shelby Hebel",
-                "tag": "[animals, cornybeyondrecognition]"   
+                "tag": "[animals, cornybeyondrecognition]"
             },
             {
                 "jokeID": "12",
                 "joke": "How do you find Will Smith in the snow? Look for the Fresh Prince.",
                 "jokeAuthor": "Shelby Hebel",
-                "tag": "[bellaire, cornybeyondrecognition]"   
+                "tag": "[bellaire, cornybeyondrecognition]"
+            },
+            {
+                "jokeID": "13",
+                "joke": "How do you catch a squirrel? Climb up a tree and act like a nut.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[animals, cornybeyondrecognition]"
+            },
+            {
+                "jokeID": "14",
+                "joke": "What did zero say to eight? Nice belt.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[numbers, nerd]"
+            },
+            {
+                "jokeID": "15",
+                "joke": "What is red and smells like blue paint? Red paint.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[colors, paint, nerd]"
+            },
+            {
+                "jokeID": "16",
+                "joke": "What do you get when you cross the Atlantic with the Titanic? About halfway.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[shipwreck, boat]"
+            },
+            {
+                "jokeID": "17",
+                "joke": "What do you call an Irishman on a porch? Paddy O'Furniture.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[Irish, furniture]"
+            },
+            {
+                "jokeID": "18",
+                "joke": "What did one eye say to the other? Between you and me, somehing smells",
+                "jokeAuthor": "Shane Hebel",
+                "tag": "[nose, eyes]"
+            },
+            {
+                "jokeID": "19",
+                "joke": "Why do cows have bells? Because their horns don't work!",
+                "jokeAuthor": "Shane Hebel",
+                "tag": "[cows, bells, horns]"
+            },
+            {
+                "jokeID": "20",
+                "joke": "Two drums and a cymbal fall down the stairs. Ba dum tshh!",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[nerd, stairs, drums]"
+            },
+            {
+                "jokeID": "21",
+                "joke": "What's Beethoven's favorite fruit? Ba-na-na-na!",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[banana, fruit]"
+            },
+            {
+                "jokeID": "22",
+                "joke": "What did on snowman say to the other snowman? 'It smells like carrots out here!'",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[carrots, snowmen]"
+            },
+            {
+                "jokeID": "23",
+                "joke": "Did you hear the one about the broken pencil? ...it's pointless.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[pencil]"
+            },
+            {
+                "jokeID": "24",
+                "joke": "What did the doctor say to the man with broccoli hanging out of his nose and lettuce hanging out of his ear? 'Sir, I don't think you're eating properly'",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[nose, food]"
+            },
+            {
+                "jokeID": "25",
+                "joke": "What do you call a million rabbits walking backwards? A receding hare line!",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[rabits, hare]"
+            },
+            {
+                "jokeID": "26",
+                "joke": "What do you call a cow with no legs? Ground beef",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[cow, beef]"
+            },
+            {
+                "jokeID": "27",
+                "joke": "What do you call a sleeping bull? A bulldozer!",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[bull, sleep]"
+            },
+            {
+                "jokeID": "28",
+                "joke": "Why is there no gambling in Africa? There are too many cheetahs.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[Africa, Cheetahs]"
+            },
+            {
+                "jokeID": "29",
+                "joke": "What do you call a deer with no eyes? No eye deer",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[blind]"
+            },
+            {
+                "jokeID": "30",
+                "joke": "What's brown and sticky? A stick",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[stick, brown]"
+            },
+            {
+                "jokeID": "31",
+                "joke": "What do you call cheese that isn't yours? Nacho cheese!",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[cheese, nacho]"
+            },
+            {
+                "jokeID": "32",
+                "joke": "What's Bruce Lee's favorite drink? WAAAATAAAAAAA!!",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[Water, BruceLee]"
+            },
+            {
+                "jokeID": "33",
+                "joke": "Why did the cookie go to the doctor? He was feeling crumby.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[cookie]"
+            },
+            {
+                "jokeID": "34",
+                "joke": "What did the tie day to the hat? 'You go ahead and I'll hang around.'",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[tie, hat]"
+            },
+            {
+                "jokeID": "35",
+                "joke": "Two cows are standing in a field. One says to the other, 'So are you scared of getting mad cow disease?' 'What do I care?' says the other. 'I'm a helicopter'",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[cow, mad]"
+            },
+            {
+                "jokeID": "36",
+                "joke": "Why do scuba divers fall backwards off the boat? Because if they fell forward, they'd still be in the boat.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[scuba, boat]"
+            },
+            {
+                "jokeID": "37",
+                "joke": "When does a joke become a dad joke? When the punchline becomes apparent.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[dadjoke, lame]"
+            },
+            {
+                "jokeID": "38",
+                "joke": "Thanks for explaining the word 'many' to me. It means a lot.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[corny, many]"
+            },
+            {
+                "jokeID": "39",
+                "joke": "Thank you student loanes, for helping me get through college. I don't think I can ever repay you.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[debt, loans]"
+            },
+            {
+                "jokeID": "40",
+                "joke": "I bought my friend and elephant for their room. They said thank you. I said don't mention it.",
+                "jokeAuthor": "Shelby Hebel",
+                "tag": "[]"
             }
         ]
    }
