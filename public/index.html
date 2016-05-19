@@ -17,7 +17,30 @@
     <p ng-repeat="jokes in yayJoke track by $index">
 			{{ jokes.joke }}
 		</p>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-	<script src="script.js"></script>
+	<h1>Break The Ice!</h1>
+	<img id="logo" src="logo.png" alt="logo">
+	<br>
+
+	I am freaking out about my
+	<select id="situation">
+	  <option value="date" selected>First Date</option>
+	  <option id="inlaws" value="inlaws" >Meeting with Inlaws</option>
+	  <option id="job" value="job">Job Interview</option>
+		<option id="mingle" value="mingle">Mingle at a Party</option>
+		<option id="speech" value="speech">Speech/Presentation</option>
+		<option id="elevator" value="elevator">Elevator Talk</option>
+
+
+	</select>
+	<br>
+	<button class="break" type="button" ng-click="break()">Break the ice</button>
+	<br>
+	<p ng-repeat='array in arrays | limitTo: 3'> {{array.abstract}} </p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="module.js"></script>
+<script src="app.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
