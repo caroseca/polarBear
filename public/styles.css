@@ -6,6 +6,10 @@ h1 {
   color: #00f;
   color: #00f;
 }
+#greeting {
+  font-family: Arial;
+  text-align: center;
+}
 body {
   background-color: #87ceeb;
   align-items: center;

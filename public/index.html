@@ -7,30 +7,36 @@
 	<link rel="stylesheet" href="styles.css" type="text/css">
 	</head>
 
-<body ng-app='myModule' ng-controller='newsController'>
+<body ng-app='myModule' ng-controller="inLawscontroller" ng-controller="minglingcontroller" ng-controller="firstDatecontroller">
 	<h1>Break The Ice!</h1>
 	<img id="logo" src="logo.png" alt="logo">
 	<br>
-
+	<p id="greeting"> Welcome, Polar Bear! I know you think you are not that great at small talk or initiating a conversation. Let us help you out. Pick a situation and we will help you break the ice. </p>
 	I am freaking out about my
 	<select id="situation">
 	  <option value="date" selected>First Date</option>
-	  <option id="inlaws" value="inlaws" >Meeting with Inlaws</option>
-	  <option id="job" value="job">Job Interview</option>
-		<option id="mingle" value="mingle">Mingle at a Party</option>
-		<option id="speech" value="speech">Speech/Presentation</option>
-		<option id="elevator" value="elevator">Elevator Talk</option>
-
-
+	  <option value="inlaws" >Meeting with Inlaws</option>
+	  <option value="job">Job Interview</option>
+		<option value="mingle">Mingle at a Party</option>
+		<option value="speech">Speech/Presentation</option>
+		<option value="elevator">Elevator Talk</option>
 	</select>
 	<br>
 	<button class="break" type="button" ng-click="break()">Break the ice</button>
 	<br>
 	<p ng-repeat='array in arrays | limitTo: 3'> {{array.abstract}} </p>
 
+	<ng-view></ng-view>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 <script src="module.js"></script>
-<script src="app.js"></script>
+<script src="controllers/dateController.js"></script>
+<script src="controllers/inlawsController.js"></script>
+<script src="controllers/minglingcontroller.js"></script>
+
+
+
 </body>
 </html>
