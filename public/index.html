@@ -7,7 +7,16 @@
 	<link rel="stylesheet" href="styles.css" type="text/css">
 	</head>
 
-<body ng-app='myModule' ng-controller="inLawscontroller" ng-controller="minglingcontroller" ng-controller="firstDatecontroller">
+<body ng-app='myModule' ng-controller="resultscontroller" ng-controller="inLawscontroller" ng-controller="minglingcontroller" ng-controller="firstDatecontroller">
+	<h1>Polar Bear!</h1>
+	<input type="text"
+         ng-model="search"
+         placeholder="Enter topic to search" />
+    <button ng-click="execute()" type="button">Break the ice!</button>
+    <!-- <p ng-repeat = "x in response">{{x.response.results[3]}}</p> -->
+    <p ng-repeat="jokes in yayJoke track by $index">
+			{{ jokes.joke }}
+		</p>
 	<h1>Break The Ice!</h1>
 	<img id="logo" src="logo.png" alt="logo">
 	<br>
@@ -33,10 +42,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 <script src="module.js"></script>
 <script src="controllers/dateController.js"></script>
-<script src="controllers/inlawsController.js"></script>
+<!-- <script src="controllers/inlawsController.js"></script>
 <script src="controllers/minglingcontroller.js"></script>
+ -->
 
-
-
+<script src="script.js"></script>
 </body>
 </html>

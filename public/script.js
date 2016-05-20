@@ -15,12 +15,17 @@ var app = angular.module('myModule', []);
 app.controller('resultscontroller', function($http, $scope){
 
 $scope.execute = function (){
-    var arrays = [];
     $http({
       method: 'GET',
       url: '/json/jokes.json'
     }).then(function (response) {
+      var jokeObject = [];
       console.log(response.data.jokes);
+      for(var i = 0; i <= 2; i++){
+      jokeObject.push(response.data.jokes[Math.floor(Math.random() * response.data.jokes.length)]);
+      console.log(jokeObject[i].joke);
+      }
+      $scope.yayJoke = jokeObject;
       // arrays[Math.floor(Math.random()*arrays.length)];
       // $scope.arrays = response.data.jokes;
     }, function () {
