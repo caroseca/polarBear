@@ -12,10 +12,7 @@
          ng-model="search"
          placeholder="Enter topic to search" />
     <button ng-click="execute()" type="button">Break the ice!</button> -->
-    <!-- <p ng-repeat = "x in response">{{x.response.results[3]}}</p> -->
-    <!-- <p ng-repeat="jokes in yayJoke track by $index">
-			{{ jokes.joke }}
-		</p> -->
+    
 	<h1>Break The Ice!</h1>
 	<img id="logo" src="logo.png" alt="logo">
 	<br>
@@ -32,11 +29,23 @@
 	<br>
 	<button class="break" type="button" ng-click="break()">Break the ice</button>
 	<br>
-	<p ng-repeat='array in arrays | limitTo: 3'> {{array.abstract}} </p>
-
+<div class="results1">
+	<!-- //beyonce -->
+	<p ng-repeat='array in arraysBey | limitTo: 3'> <a ng-href="{{array.webUrl}}">{{array.webTitle}}</a></p>
+	<!-- //nyt -->
+	<p ng-repeat='array in arraysNyt | limitTo: 3'> <a ng-href="{{array.url}}">{{array.title}}</a></p>
+	<!-- //popculture -->
+	<!-- <p ng-repeat='array in arraysUsa | limitTo: 3'> <a ng-href="{{array.url}}">{{array.title}}</a></p> -->
+</div>
+<div class="results2">
+   <!-- //jokes -->
+    <p ng-repeat="jokes in yayJoke track by $index">{{jokes.joke}}</p>
+    <!-- //guardianTech -->
+	<p class="tech" ng-repeat='array in arraysTech | limitTo: 3'> <a ng-href="{{array.webUrl}}">{{array.webTitle}}</a></p>
+</div>
 	<ng-view></ng-view>
 
-
+<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 <script src="module.js"></script>
