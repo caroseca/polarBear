@@ -1,6 +1,7 @@
 var app = angular.module('myModule',[]);
 
 app.controller('resultscontroller', function($scope, $http, $location){
+  
   $scope.break = function(){
 //////////////////////////
 // DATE IS POPCULTURE API + JOKES
@@ -117,7 +118,7 @@ app.controller('resultscontroller', function($scope, $http, $location){
         for(var i = 0; i <= 2; i++){
           jokeObject.push(response.data.jokes[Math.floor(Math.random() * response.data.jokes.length)]);
             }
-        $( "<h3>A few jokes to break that ice:</h3>" ).prependTo( ".results2" );
+        $(".results2").prepend( "<h3>A few jokes to break that ice:</h3>");
         $scope.yayJoke = jokeObject; 
       });
 
@@ -127,7 +128,7 @@ app.controller('resultscontroller', function($scope, $http, $location){
       }).then(function (responseTech) {
         var arraysTech = [];
           console.log(responseTech.data.response.results);
-          $( "<h3>A few technology headlines to break the ice:</h3>" ).prependTo( ".tech" );
+          $("#tech").prepend("<h3>A few technology headlines to break the ice:</h3>");
           $scope.arraysTech = responseTech.data.response.results; 
       });
 
@@ -158,4 +159,6 @@ app.controller('resultscontroller', function($scope, $http, $location){
   } else {
       console.log('Oh darn.  Trapped on an iceberg all by yourself!')};
     };
-  });
+ }); 
+
+

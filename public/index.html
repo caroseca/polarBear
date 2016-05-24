@@ -34,16 +34,22 @@
 		<p ng-repeat='array in arraysBey | limitTo: 3'> <a ng-href="{{array.webUrl}}">{{array.webTitle}}</a></p>
 	<!-- //nyt -->
 		<p ng-repeat='array in arraysNyt | limitTo: 3'> <a ng-href="{{array.url}}">{{array.title}}</a></p>
-	<!-- //popculture -->
 </div>
+
 <div class="results2">
    <!-- //jokes -->
     	<p ng-repeat="jokes in yayJoke track by $index">{{jokes.joke}}</p>
     <!-- //guardianTech -->
-		<p class="tech" ng-repeat='array in arraysTech | limitTo: 3'> <a ng-href="{{array.webUrl}}">{{array.webTitle}}</a></p>
+		<p id="tech"></p>
+		<p ng-repeat='array in arraysTech | limitTo: 3'> <a ng-href="{{array.webUrl}}">{{array.webTitle}}</a></p>
 </div>
+
+<a href="javascript:window.location.reload(true)">Try it again!</a>
+<div>
 	<a href="/aboutUs">Find out more about the developers</a>
 	<ng-view></ng-view>
+</div>
+
 
 
 <!-- //script tags -->
