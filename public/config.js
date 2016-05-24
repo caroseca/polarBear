@@ -26,5 +26,9 @@ app.config(function($routeProvider) {
 			controller: "elevatorSpeechcontroller",
 			templateUrl: "elevatorSpeech.html"
 				})
+		.when("/aboutUs", {
+			controller: "aboutUs",
+			templateUrl: "aboutUs.html"
+				})
 		.otherwise({redirectTo: "/"});
 });

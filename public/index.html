@@ -8,47 +8,48 @@
 	</head>
 
 <body ng-app='myModule' ng-controller="resultscontroller">
-	<!-- <input type="text"
-         ng-model="search"
-         placeholder="Enter topic to search" />
-    <button ng-click="execute()" type="button">Break the ice!</button> -->
+
     
 	<h1>Break The Ice!</h1>
 	<img id="logo" src="logo.png" alt="logo">
-	<br>
-	<p id="greeting"> Welcome, Polar Bear! I know you think you are not that great at small talk or initiating a conversation. Let us help you out. Pick a situation and we will help you break the ice. </p>
-	I am freaking out about my
+	
+	<p id="greeting"> Welcome, Polar Bear! Did you know that polar bears can swim at a steady clip of 6 miles per hour? We have designed an application that will help you swim through any situation - regardless of how choppy the waters!</p>
+
+	<p id="ui">Below is a list of several situations that can freeze you up out of nervousness.  Choose a situation, and we'll give you various world topics, jokes, or pop culture nuggets that are great for the situation you're in.  Polar Bear, you've got this!</p>
+	
+	<h3>I am freaking out about my:</h3>
 	<select id="situation">
-	  <option value="date" selected>First Date</option>
-	  <option value="inlaws" >Meeting with Inlaws</option>
-	  <option value="job">Job Interview</option>
+	  	<option value="date" selected>First Date</option>
+	  	<option value="inlaws" >Meeting with Inlaws</option>
+	  	<option value="job">Job Interview</option>
 		<option value="mingle">Mingle at a Party</option>
 		<option value="speech">Speech/Presentation</option>
 		<option value="elevator">Elevator Talk</option>
 	</select>
-	<br>
+	
 	<button class="break" type="button" ng-click="break()">Break the ice</button>
-	<br>
+	
 <div class="results1">
 	<!-- //beyonce -->
-	<p ng-repeat='array in arraysBey | limitTo: 3'> <a ng-href="{{array.webUrl}}">{{array.webTitle}}</a></p>
+		<p ng-repeat='array in arraysBey | limitTo: 3'> <a ng-href="{{array.webUrl}}">{{array.webTitle}}</a></p>
 	<!-- //nyt -->
-	<p ng-repeat='array in arraysNyt | limitTo: 3'> <a ng-href="{{array.url}}">{{array.title}}</a></p>
+		<p ng-repeat='array in arraysNyt | limitTo: 3'> <a ng-href="{{array.url}}">{{array.title}}</a></p>
 	<!-- //popculture -->
-	<!-- <p ng-repeat='array in arraysUsa | limitTo: 3'> <a ng-href="{{array.url}}">{{array.title}}</a></p> -->
 </div>
 <div class="results2">
    <!-- //jokes -->
-    <p ng-repeat="jokes in yayJoke track by $index">{{jokes.joke}}</p>
+    	<p ng-repeat="jokes in yayJoke track by $index">{{jokes.joke}}</p>
     <!-- //guardianTech -->
-	<p class="tech" ng-repeat='array in arraysTech | limitTo: 3'> <a ng-href="{{array.webUrl}}">{{array.webTitle}}</a></p>
+		<p class="tech" ng-repeat='array in arraysTech | limitTo: 3'> <a ng-href="{{array.webUrl}}">{{array.webTitle}}</a></p>
 </div>
 	<ng-view></ng-view>
 
-<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-<script src="module.js"></script>
-<!-- <script src="script.js"></script> -->
+
+<!-- //script tags -->
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="module.js"></script>
+
 </body>
 </html>
