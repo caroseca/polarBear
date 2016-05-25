@@ -12,7 +12,6 @@
 //new (05.24.2016) from shelby
 var gulp = require('gulp');
 var stylus = require('gulp-stylus');
-var sass = require('gulp-sass');
 
 gulp.task('styles', function() {
    return gulp.src('./sass/**/*.scss')

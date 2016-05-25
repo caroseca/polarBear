@@ -1,14 +1,17 @@
 body {
-  background: url(BrokenIce.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  font-family: 'Dosis', snas-serif;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
   color: #000080;
-/*   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;*/
 }
+
+html {
+    background: url(BrokenIce.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 #logo {
     max-height: 300px;
@@ -24,9 +27,6 @@ h1 {
  font-family: 'Sigmar One', cursive;
 }
 
-h2 {
- margin-top: 0;
-}
 
 h4 {
   color: #00009C ;
