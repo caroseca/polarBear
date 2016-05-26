@@ -6,50 +6,116 @@ html {
     background-size: cover;
 }
 
+#logo {
+    max-height: 10vw;
+    max-width: 8vw;
+    /*margin-left: 23vw;*/
+    text-align: left;
+    padding-top: 5vw;
+    padding-left: 3vw;
+}
+
+#ui {
+  background-color: rgba(255,255,255,0.85);
+  float: left;
+}
+
 .results1, .results2 {
   background-color: rgba(255,255,255,0.85);
   width: 70%;
   margin: 0 auto;
+  /*padding-top: 1vw;*/
   /*filter: alpha(opacity=0.5)*/
 }
 
 
-p {
+.PolarBear1 {
   font-family: 'Muli', sans-serif;
   font-size: 2vw;
-  padding: 2vw;
+  color: #004C99 ;
+  margin-top: -2vw;
+  padding-left: 6vw;
+
 }
 
-#logo {
-    max-height: 30vw;
-    max-width: 10vw;
-    margin-bottom: 1vw;
-    text-align: center;
-    margin-top: 10vw;
+#tech {
+  padding: 0;
 }
+
+
+#tryAgain, #find {
+  font-family: 'Muli', sans-serif;
+  font-size: 2vw;
+  /*padding: 2vw;*/
+}
+
+.results1 p, .results2 p {
+  padding-top: 0;
+  padding-bottom: 1vw;
+
+}
+
+.results1 a, .results2 a {
+  color: #004C99;
+}
+
+
+/*#logo:hover {
+  background: url(bearBreak.png);
+  max-height: 10vw;
+  max-width: 8vw;
+  margin-bottom: 1vw;
+  /*margin-left: 23vw;*/
+  /*text-align: left;*/
+/*}*/
 
 h1 {
- color: #00009C ;
+ color: #004C99 ;
  margin: 0;
  font-size: 8vw;
  font-family: 'Sigmar One', cursive;
+ padding-top: 1vw;
 }
+
 
 h3 {
-  font-family: 'Muli', sans-serif;
-}
-
-h4 {
-  color: #00009C ;
+  color: #004C99 ;
   margin: 15px;
   font-family: 'Muli', sans-serif;
+  font-size: 2vw;
+  padding-top: 2vw;
 }
 
 body {
   text-align: center;
-  color: #000080;
+  color: #004C99;
   font-family: 'Muli', sans-serif;
 }
+
+
+#logo {
+    max-height: 12vw;
+    max-width: 9vw;
+    float: left;
+    position: relative;
+    margin-top: -20vw;
+    margin-left: 11vw;
+}
+
+.pic {
+  max-width: 11vw;
+  max-height: 11vw;
+}
+
+.boldnames {
+  font-family: 'Muli', sans-serif;
+  font-size: 2vw;
+}
+
+#ui {
+  font-family: 'Muli', sans-serif;
+  font-size: 2vw;
+  padding: 1vw;
 
 
 #snow{
